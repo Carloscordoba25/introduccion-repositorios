@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>repositorios</title>
+    <title>Repositorios GIT Y GITHUB</title>
 </head>
 <body>
     <h1>Repositorios en github</h1>
@@ -26,7 +26,26 @@
     <p>inicializar el repositorio local</p>
     <ol>
         <li>git init</li>
+        <li>git add .</li>
+        <li>git commit -m "mensaje de commit"</li>
     </ol>
+
+    <h2>tercer bloque</h2>
+    <p>comunicacion con el repositorio remoto</p>
+    <ol>
+        <li>git remote add origin https://github.com/usuario/nombre-repositorio.git</li>
+        <li>git push -u origin master/main</li>
+    </ol>
+
+    <h3>Estados de archivos en repositorios</h3>
+    <p>Los archivos en un repositorio pueden estar en diferentes estados:</p>
+    <ul>
+        <li><strong> U = Untracked:</strong> Archivos que no están siendo rastreados por Git.</li>
+        <li><strong> M = Modified:</strong> Archivos que han sido modificados pero aún no se han agregado al área de preparación.</li>
+        <li><strong> D = Deleted:</strong> Archivos que han sido eliminados.</li>
+        <li><strong> A = Added:</strong> Archivos que han sido agregados al área de preparación.</li>
+        <li><strong> S = Staged:</strong> Archivos que han sido agregados al área de preparación y están listos para ser confirmados.</li>
+        <li><strong> C = Committed:</strong> Archivos que han sido confirmados en el repositorio local.</li>
 
 </body>
 </html>
